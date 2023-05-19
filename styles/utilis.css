@@ -1,0 +1,132 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+  }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  color: white;
+  background-color: rgb(155, 155, 155);
+  padding: 3px 15px;
+  position: absolute;
+  bottom: -75%;
+  border-radius: 5px;
+  right: -30%;
+  font-size: 13px;
+  }
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+
+  }
+
+  .tooltip2 {
+    position: relative;
+    display: inline-block;
+    
+    }
+  
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    color: white;
+    background-color: rgb(155, 155, 155);
+    padding: 3px 10px;
+    position: absolute;
+    bottom: -160%;
+    border-radius: 5px;
+    font-size: 13px;
+    width: 180px;
+    left: 0;
+    right: 0;
+    
+    }
+  
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  
+    }
+
+    /* Create Tooltip */
+
+    .tooltip3 {
+      position: relative;
+      display: inline-block;
+      
+      }
+    
+    .tooltip3 .tooltiptext3 {
+      visibility: hidden;
+      color: white;
+      background-color: rgb(155, 155, 155);
+      padding: 3px 10px;
+      position: absolute;
+      bottom: -110%;
+      border-radius: 5px;
+      font-size: 13px;
+      left: 0;
+      right: 0;
+      width: 60px
+      
+      }
+    
+    .tooltip3:hover .tooltiptext3 {
+      visibility: visible;
+    
+      }
+
+      /* Youtube Apps Tooltip */
+
+      .tooltip4 {
+        position: relative;
+        display: inline-block;
+        
+        }
+      
+      .tooltip4 .tooltiptext4 {
+        visibility: hidden;
+        color: white;
+        background-color: rgb(155, 155, 155);
+        padding: 3px 10px;
+        position: absolute;
+        bottom: -110%;
+        border-radius: 5px;
+        font-size: 13px;
+        left: 0;
+        right: 0;
+        width: 102px
+        
+        }
+      
+      .tooltip4:hover .tooltiptext4 {
+        visibility: visible;
+      
+        }
+
+        /* Notifications Tooltip */
+
+        .tooltip5 {
+          position: relative;
+          display: inline-block;
+          
+          }
+        
+        .tooltip5 .tooltiptext5 {
+          visibility: hidden;
+          color: white;
+          background-color: rgb(155, 155, 155);
+          padding: 3px 10px;
+          position: absolute;
+          bottom: -110%;
+          border-radius: 5px;
+          font-size: 13px;
+          left: 0;
+          right: 0;
+          width: 102px
+          
+          }
+        
+        .tooltip5:hover .tooltiptext5 {
+          visibility: visible;
+        
+          }

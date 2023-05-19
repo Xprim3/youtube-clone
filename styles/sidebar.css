@@ -1,0 +1,43 @@
+
+/* Sidebar Section + Menu */
+
+.sidebar-section {
+  width: 72px;
+  height: 720px;
+  position: fixed;
+  top: 53px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 74px 74px 74px 74px 74px 74px ;
+  z-index: 998;
+  background-color: white;
+
+}
+
+/*Sidebar Buttons*/
+
+.sidebar-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+  cursor: pointer;
+  gap: 2px;
+}
+
+.sidebar-box:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+.sidebar-icons {
+  width: 24px;
+  height: 24px;
+}
+
+.sidebar-text {
+  font-size: 10px;
+  color: rgb(33, 37, 41);
+  font-weight: 400;
+
+}

@@ -1,0 +1,363 @@
+/* Header Section */
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.header-section {
+  width: 100%;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  top: 0;
+  z-index: 999;
+}
+.left-header-section {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+
+}
+
+/* Sendwich Menu Button*/
+
+.menu-button {
+  padding: 12px 12px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.button-line {
+  width: 18px;
+  height: 1px;
+  background-color: black;
+  margin: 2.5px 0; 
+}
+.menu-button:hover {
+  background-color: rgb(228, 228, 228);
+}
+.menu-button:active {
+  background-color: rgb(194, 194, 194);
+  opacity: 0.8;
+}
+
+
+/* Logo Style */
+
+.logo-box {
+  padding: 12px 12px;
+  display: flex;
+  justify-content: left;
+  cursor: pointer;
+  align-items: center;
+}
+.logo-svg {
+  width: 90px;
+  height: 100%;
+  min-width: 90px;
+}
+
+/* Midle Search Section */
+
+.midle-header-section {
+  width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-mod {
+  width: 40%;
+  min-width: 80px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: none;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgb(218, 218, 218);
+  border-radius: 3px;
+  outline: none;
+}
+
+/* Midle Search Button*/
+
+.search-svg {
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-top-style: solid;
+  border-top-width: 0.1px;
+  border-top-color: rgb(218, 218, 218);
+  border-bottom-style: solid;
+  border-bottom-width: 0.1px;
+  border-bottom-color: rgb(218, 218, 218);
+  border-bottom-left-radius: 0px;
+  border-right-style: solid;
+  border-right-width: 0.1px;
+  border-right-color: rgb(218, 218, 218);
+  border-top-style: solid;
+  border-top-width: 0.1px;
+  border-top-color: rgb(218, 218, 218);
+  border-left-style: none;
+  border-radius: 0px;
+  border-left-width: 0.1px;
+  border-left-color: rgb(218, 218, 218);
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(247, 247, 247);
+  transition: background-color 0.1s;
+}
+.search-svg:hover {
+  background-color: rgb(239, 239, 239);
+}
+.midle-search-svg-button {
+  width: 24px;
+  height: 24px;
+}
+
+/* Profile Navigations*/
+
+.right-header-section {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  padding-right: 50px;
+}
+.icon-mod {
+  min-width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.voice-button {
+  padding: 7px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voice-mod {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* Small Devices */
+@media (min-width: 375px) {
+
+}
+
+/* Medium Devices */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* Large Devices */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* Extra Large Devices */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xL Devices */
+@media (min-width: 1536px) {
+  .wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .header-section {
+    width: 100%;
+    height: 57px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    top: 0;
+    z-index: 999;
+  }
+  .left-header-section {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 15px;
+  
+  }
+  
+  /* Sendwich Menu Button*/
+  
+  .menu-button {
+    padding: 12px 12px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .button-line {
+    width: 18px;
+    height: 1px;
+    background-color: black;
+    margin: 2.5px 0; 
+  }
+  .menu-button:hover {
+    background-color: rgb(228, 228, 228);
+  }
+  .menu-button:active {
+    background-color: rgb(194, 194, 194);
+    opacity: 0.8;
+  }
+  
+  
+  /* Logo Style */
+  
+  .logo-box {
+    padding: 12px 12px;
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+    align-items: center;
+  }
+  .logo-svg {
+    width: 90px;
+    height: 100%;
+    min-width: 90px;
+  }
+  
+  /* Midle Search Section */
+  
+  .midle-header-section {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-mod {
+    width: 40%;
+    min-width: 80px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: none;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(218, 218, 218);
+    border-radius: 3px;
+    outline: none;
+  }
+  
+  /* Midle Search Button*/
+  
+  .search-svg {
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-top-style: solid;
+    border-top-width: 0.1px;
+    border-top-color: rgb(218, 218, 218);
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+    border-bottom-color: rgb(218, 218, 218);
+    border-bottom-left-radius: 0px;
+    border-right-style: solid;
+    border-right-width: 0.1px;
+    border-right-color: rgb(218, 218, 218);
+    border-top-style: solid;
+    border-top-width: 0.1px;
+    border-top-color: rgb(218, 218, 218);
+    border-left-style: none;
+    border-radius: 0px;
+    border-left-width: 0.1px;
+    border-left-color: rgb(218, 218, 218);
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(247, 247, 247);
+    transition: background-color 0.1s;
+  }
+  .search-svg:hover {
+    background-color: rgb(239, 239, 239);
+  }
+  .midle-search-svg-button {
+    width: 24px;
+    height: 24px;
+  }
+  
+  /* Profile Navigations*/
+  
+  .right-header-section {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+  }
+  .icon-mod {
+    min-width: 27px;
+    height: 27px;
+    cursor: pointer;
+  }
+  .voice-button {
+    padding: 7px;
+    border: none;
+    border-radius: 25px;
+    margin-left: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .voice-mod {
+    width: 24px;
+    height: 24px;
+  }
+}
