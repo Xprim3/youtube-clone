@@ -177,6 +177,7 @@
 
 
 
+
 /* Small Devices */
 @media (min-width: 320px) and (max-width:590px) {
 
@@ -395,7 +396,11 @@
 }
 
 
-@media (min-width: 425px) and (max-width: 768px) {
+
+/* Small Devices */
+@media (min-width: 768px) and (max-width:1024px) {
+
+
   .midle-header-section {
     display: flex;
     justify-content: left;
@@ -426,7 +431,6 @@
   justify-content: center;
   align-items: center;
   height: 27px;
-  display: none;
   border-top-style: solid;
   border-top-width: 0.1px;
   border-top-color: rgb(218, 218, 218);
@@ -458,7 +462,7 @@
   border-radius: 25px;
   margin-left: 8px;
   cursor: pointer;
-  display: none;
+  display: block;
   justify-content: center;
   align-items: center;
 }
@@ -606,5 +610,232 @@
   font-size: 12px;
   color: rgb(96, 96, 96);
 }
+
 }
+
+
+
+/* Small Devices */
+@media (min-width: 1024px) and (max-width: 1600px) {
+
+
+  .midle-header-section {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .input-mod {
+  display: flex;
+  width: 100%;
+  min-width: 80px;
+  height: 40px;
+  padding-left: 10px;
+  background-color: none;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color: rgb(218, 218, 218);
+  border-radius: 3px;
+  outline: none;
+}
+
+/* Midle Search Button*/
+
+.search-svg {
+  width: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  border-top-style: solid;
+  border-top-width: 0.1px;
+  border-top-color: rgb(218, 218, 218);
+  border-bottom-style: solid;
+  border-bottom-width: 0.1px;
+  border-bottom-color: rgb(218, 218, 218);
+  border-bottom-left-radius: 0px;
+  border-right-style: solid;
+  border-right-width: 0.1px;
+  border-right-color: rgb(218, 218, 218);
+  border-top-style: solid;
+  border-top-width: 0.1px;
+  border-top-color: rgb(218, 218, 218);
+  border-left-style: none;
+  border-radius: 0px;
+  border-left-width: 0.1px;
+  border-left-color: rgb(218, 218, 218);
+  cursor: pointer;
+  outline: none;
+  background-color: rgb(247, 247, 247);
+  transition: background-color 0.1s;
+}
+.search-svg:hover {
+  background-color: rgb(239, 239, 239);
+}
+.voice-button {
+  padding: 7px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 8px;
+  cursor: pointer;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.voice-mod {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-wrapper {
+  display: none;
+  
+}
+.right-header-section {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+/*navigation sidebar*/
+
+.mobile-nav-wrapper {
+  display: block;
+}
+
+.test {
+  width: 100%;
+  height: 57px;
+  position: absolute;
+  top: 59px;
+  display: none;
+  background-color: white;
+}
+
+.menu-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+}
+
+.mob-nav-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.mobile-images {
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-text {
+  font-size: 12px;
+}
+
+.mobile-wrapper-main {
+  display: block;
+}
+
+.mobile-content-wrapper {
+  display: none;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  padding-top: 130px;
+
+}
+
+.mobile-content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr auto;
+}
+
+.mobile-thumbnail-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-thumnail-images {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mobile-title-box {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: auto;
+  padding: 10px 0px;
+  margin: 5px 0px;
+
+}
+
+.title-profile-image {
+  width: 36px;
+  display: block;
+  height: 36px;
+  object-fit: fill;
+  margin: 0px auto;
+  border-radius: 25px;
+}
+
+.mobile-text-mods {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.mobile-title-text {
+  font-size: 17px;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+}
+
+.author-box {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.mob-nav-menu {
+  display: none;
+}
+
+.mobile-author-text {
+  display: inline-block;
+  font-size: 11px;
+  color: rgb(96, 96, 96)
+}
+
+.mobile-stats-text {
+  display: inline-block;
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+}
+
+
+
+
 
