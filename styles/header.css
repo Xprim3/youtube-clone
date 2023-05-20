@@ -317,8 +317,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(1, 297px);
-  gap: 6px;
-
   position: absolute;
   top: 130px;
 }
@@ -326,7 +324,7 @@
 .mobile-content-grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 2fr auto;
 }
 
 .mobile-thumbnail-box {
@@ -345,10 +343,8 @@
 
 .mobile-title-box {
   display: grid;
-  width: 100%;
-  height: 100%;
   grid-template-columns: 50px 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: auto;
   padding: 10px 0px;
 
 }
@@ -378,7 +374,9 @@
 }
 
 .author-box {
-  display: inline-block
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 .mobile-author-text {
