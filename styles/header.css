@@ -531,9 +531,9 @@
 .mobile-content-wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(1, 297px);
-  position: absolute;
-  top: 130px;
+  grid-template-rows: repeat(1, 1fr);
+  padding-top: 130px;
+
 }
 
 .mobile-content-grid {
@@ -561,6 +561,7 @@
   grid-template-columns: 50px 1fr;
   grid-template-rows: auto;
   padding: 10px 0px;
+  margin: 5px 0px;
 
 }
 
