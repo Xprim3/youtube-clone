@@ -172,6 +172,12 @@
   height: 24px;
 }
 
+.mobile-wrapper {
+  display: flex;
+  flex-direction:row;
+  gap: 15px;
+}
+
 
 
 
@@ -426,11 +432,11 @@
 /* Midle Search Button*/
 
 .search-svg {
-  width: 100%;
+  width: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 27px;
+  height: 40px;
   border-top-style: solid;
   border-top-width: 0.1px;
   border-top-color: rgb(218, 218, 218);
@@ -444,8 +450,8 @@
   border-top-style: solid;
   border-top-width: 0.1px;
   border-top-color: rgb(218, 218, 218);
-  border-left-style: solid;
-  border-radius: 5px;
+  border-left-style: none;
+  border-radius: 0px;
   border-left-width: 0.1px;
   border-left-color: rgb(218, 218, 218);
   cursor: pointer;
@@ -492,6 +498,13 @@
 .mobile-nav-wrapper {
   display: none;
 }
+
+.mobile-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 15px
+}
+
 
 .test {
   width: 100%;
